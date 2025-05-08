@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Entry Form</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Add Flatpickr for custom datepicker -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <style>
+    /* Add blue border when focused on input fields */
+    input:focus {
+      border-color: #3b82f6; /* Blue color */
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Blue shadow */
+    }
+  </style>
+</head>
+<body class="bg-white min-h-screen">
+  <div class="h-screen flex flex-col md:flex-row">
+    
+    <!-- Left Side Graphic Section -->
+    <div class="relative overflow-hidden hidden md:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 justify-around items-center">
+      <div>
+        <h1 class="text-white font-bold text-4xl font-sans">AFX_GoFinance</h1>
+        <p class="text-white mt-1">Quality means doing it right when no one is looking.</p>
+      </div>
+      <div class="absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-white border-t-8"></div>
+      <div class="absolute -bottom-40 -left-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-white border-t-8"></div>
+      <div class="absolute -top-40 -right-0 w-80 h-80 border-4 rounded-full border-opacity-30 border-white border-t-8"></div>
+      <div class="absolute -top-20 -right-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-white border-t-8"></div>
+    </div>
+
+    <!-- Right Side Form Section -->
+    <div class="flex w-full md:w-1/2 justify-center items-center bg-white">
+      <form class="bg-white w-full max-w-sm p-8">
+        <h1 class="text-gray-800 font-bold text-2xl mb-1">Hello Aprutharaj</h1>
+        <p class="text-sm font-normal text-gray-600 mb-7">Welcome Back</p>
+        
+        <!-- Username -->
+        <div class="flex items-center border-2 py-2 px-4 rounded-2xl mb-4 bg-white shadow-sm hover:shadow-lg transition-all duration-300 focus-within:ring-2 focus-within:ring-indigo-600">
+            <svg  class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+              </svg>
+          <input class="pl-2 outline-none border-none w-full text-gray-700 placeholder-gray-400 focus:ring-0 focus:outline-none" type="text" placeholder="part name" />
+        </div>
+
+        <!-- Email -->
+        <div class="flex items-center border-2 py-2 px-4 rounded-2xl mb-4 bg-white shadow-sm hover:shadow-lg transition-all duration-300 focus-within:ring-2 focus-within:ring-indigo-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <input class="pl-2 outline-none border-none w-full text-gray-700 placeholder-gray-400 focus:ring-0 focus:outline-none" type="text" placeholder="hour_qty" />
+        </div>
+
+        <!-- Password -->
+        <div class="flex items-center border-2 py-2 px-4 rounded-2xl mb-4 bg-white shadow-sm hover:shadow-lg transition-all duration-300 focus-within:ring-2 focus-within:ring-indigo-600">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 3h12M6 8h12m-6 0a6 6 0 01-6 6h6m-6 0l6 6" />
+              </svg>
+              <input class="pl-2 outline-none border-none w-full text-gray-700 placeholder-gray-400 focus:ring-0 focus:outline-none" type="number" placeholder="die_price" />
+        </div>
+                <!-- Submit Button -->
+                <button type="submit" class="block w-full bg-blue-600 mt-4 py-2 rounded-2xl text-white font-semibold shadow-md hover:bg-blue-700 transition duration-300">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </body>
+          </html>
+          
