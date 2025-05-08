@@ -1,5 +1,5 @@
-fastapi==0.95.0
-uvicorn==0.22.0
-sqlalchemy==2.0.18
-psycopg2==2.9.5  # PostgreSQL driver
-pydantic==1.10.7
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
