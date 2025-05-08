@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/codework/v1/dad/(.*)",
-        "dest": "/main1.py"
+        "dest": "/mian1.py"
       }
     ]
   }
